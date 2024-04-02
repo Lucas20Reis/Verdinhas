@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Git</a>
+        <a href="www.linkedin.com/in/lucaslsreis">Linkdin</a>
+        
+    </div>
+
+    <section>
+        <form id="form-cadastro" onsubmit="return false">
+            <Label>
+                Nome da Planta:
+            </Label>
+            <input type="text" name="nome">
+            <Label>
+                Espécie:
+            </Label>
+            <input type="text" name="especie">
+            <Label>
+                Altura:
+            </Label>
+            <input type="text" name="altura">
+            <button type="submit" name="enviar" value="Cadastrar" onclick="salvar()">
+                Cadastrar
+            </button>
+        </form>
+    </section>
+</body>
+
+</html>

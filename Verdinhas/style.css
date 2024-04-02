@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(168, 255, 187);
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-family: sans-serif;
+    background-image: url("floresta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #33333363;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+form {
+    max-width: 500px;
+    max-height: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 1%;
+    border-radius: 10px;
+
+
+}
+
+label {
+    border-color: rgb(132, 182, 131);
+    text-align: center;
+    flex: 1;
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+input {
+    border-color: rgb(132, 182, 131);
+    text-align: center;
+    flex: 1;
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+
+button {
+    border-color: rgb(132, 182, 131);
+    text-align: center;
+    margin-top: 3%;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: x-large;
+}
